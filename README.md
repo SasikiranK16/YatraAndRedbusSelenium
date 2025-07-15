@@ -2,7 +2,6 @@
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
 ![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)
-![Playwright](https://img.shields.io/badge/Playwright-45BA68?style=for-the-badge&logo=playwright&logoColor=white)
 ![Test Automation](https://img.shields.io/badge/Test%20Automation-✅-green?style=for-the-badge)
 
 > A dual-project automation challenge featuring **RedBus** and **Yatra**, built using **Java**, **Selenium**, and **Playwright** — developed as part of a real-time assessment initiated by [Tech with Jatin](https://www.youtube.com/@TechWithJatin). This project reflects dynamic handling, practical learning, and robust test design.
@@ -18,7 +17,7 @@
 |----------------|----------------------------------|
 | Java           | Core Programming Language       |
 | Selenium       | UI Automation (RedBus)          |
-| Playwright     | UI Automation (Yatra)           |
+| Selenium       | UI Automation (Yatra)           |
 | TestNG         | Test Framework                  |
 | Maven          | Build and Dependency Management |
 | Page Object    | Design Pattern Used             |
