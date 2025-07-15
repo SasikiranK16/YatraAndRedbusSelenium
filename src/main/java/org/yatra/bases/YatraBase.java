@@ -13,12 +13,14 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.yatra.pages.RedBusHomepage;
 import org.yatra.pages.YatraAdvertisement;
 import org.yatra.pages.YatraHomePage;
 
 public class YatraBase {
 
 	public static Properties properties;
+	public static RedBusHomepage redBusHomepage;
 	public static FileInputStream fileInputStream;
 	public static WebDriver driver;
 	public static YatraAdvertisement yatraAdvertisement;
@@ -56,17 +58,18 @@ public class YatraBase {
 		}
 		driver.get(urlName);
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2000));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		return driver;
 	}
 	public static WebDriverWait waitAlways(WebElement locator) {
-		webDriverWait = new WebDriverWait(driver, Duration.ofSeconds(2000));
+		webDriverWait = new WebDriverWait(driver, Duration.ofSeconds(5));
 		webDriverWait.until(ExpectedConditions.elementToBeClickable(locator)).click();
 		return webDriverWait;
 	}
 	public static WebDriver commonDrivers(WebDriver driver) {
 		yatraAdvertisement = new YatraAdvertisement(driver);
 		yatraHomePage = new YatraHomePage(driver);
+		redBusHomepage = new RedBusHomepage(driver);
 		return driver;
 	}
 	

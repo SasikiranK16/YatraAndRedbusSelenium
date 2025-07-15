@@ -2,6 +2,7 @@ package org.yatra.commoncodes;
 
 import java.time.Duration;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -16,4 +17,6 @@ public class YatraCommonCodes {
 		webDriverWait.until(ExpectedConditions.elementToBeClickable(locator)).click();
 		return webDriverWait;
 	}
+
+	
 }

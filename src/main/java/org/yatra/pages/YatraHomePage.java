@@ -43,7 +43,10 @@ public class YatraHomePage extends YatraCommonCodes {
 	public void clickSpecificDepatureDateModified() {
 //		monthlyDates.stream().filter(p->p.getAttribute("Choose Friday, August 1st, 2025").contains(number)).findAny().orElse(null).click();
 //		secondBlockCalandar.stream().filter(p->p.getText().contains(num)).findFirst().orElse(null).click();
-		secondBlockCalandar.stream().forEach(p->System.out.println(p.getText()));
+//		secondBlockCalandar.stream().forEach(p->System.out.println(p.getText()));
+		List<Integer>dates = monthlyDates.stream().map(p->p.getText().replaceAll("[^0-9]"," "))
+				.map(Integer::parseInt).collect(Collectors.toList());
+		System.out.println(dates);
 		
 	}
 }

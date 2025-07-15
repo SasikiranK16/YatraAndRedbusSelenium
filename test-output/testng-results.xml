@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-14T14:57:58 IST" name="Default suite" finished-at="2025-07-14T14:58:01 IST" duration-ms="2553">
+  <suite started-at="2025-07-15T12:26:25 IST" name="Default suite" finished-at="2025-07-15T12:26:53 IST" duration-ms="28544">
     <groups>
     </groups>
-    <test started-at="2025-07-14T14:57:58 IST" name="Default test" finished-at="2025-07-14T14:58:01 IST" duration-ms="2553">
-      <class name="org.yatra.tests.YatraTest">
-        <test-method is-config="true" signature="launch()[pri:0, instance:org.yatra.tests.YatraTest@36902638]" started-at="2025-07-14T14:57:43 IST" name="launch" finished-at="2025-07-14T14:57:58 IST" duration-ms="15068" status="PASS">
+    <test started-at="2025-07-15T12:26:25 IST" name="Default test" finished-at="2025-07-15T12:26:53 IST" duration-ms="28544">
+      <class name="org.yatra.tests.RedBus">
+        <test-method is-config="true" signature="launch()[pri:0, instance:org.yatra.tests.RedBus@1d2adfbe]" started-at="2025-07-15T12:26:06 IST" name="launch" finished-at="2025-07-15T12:26:25 IST" duration-ms="18016" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
-        <test-method signature="testTwo()[pri:0, instance:org.yatra.tests.YatraTest@36902638]" started-at="2025-07-14T14:57:58 IST" name="testTwo" finished-at="2025-07-14T14:58:00 IST" duration-ms="2409" status="PASS">
+        <test-method signature="testOne()[pri:0, instance:org.yatra.tests.RedBus@1d2adfbe]" started-at="2025-07-15T12:26:25 IST" name="testOne" finished-at="2025-07-15T12:26:53 IST" duration-ms="28266" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testTwo -->
-      </class> <!-- org.yatra.tests.YatraTest -->
+        </test-method> <!-- testOne -->
+      </class> <!-- org.yatra.tests.RedBus -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
